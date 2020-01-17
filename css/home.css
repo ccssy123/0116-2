@@ -108,6 +108,7 @@ li{
     padding-top: 42px;
     padding-bottom: 42px;
 }
+
 @media(max-width: 1199px) {
     .footer{
      padding-bottom: 55px;
@@ -138,6 +139,11 @@ li{
 .footer .col-sm h5{
     color: #909090;
     font-weight: 300;
+}
+.footer .col-sm h5:hover{
+    color: red;
+    transition: 1s all;
+    text-decoration:none!important;
 }
 .col-sm img{
     width: 100%;
