@@ -210,6 +210,9 @@ li{
 .copyright p{
     float: left;
 }
+.copyright a{
+    color: #909090;;
+}
 @media(max-width: 1199px) {
     .copyright p{
     margin-bottom: 0px;
